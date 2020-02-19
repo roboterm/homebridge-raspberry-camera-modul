@@ -10,16 +10,24 @@ In my case my Homebridge instance is running on a RaspberryPi 3b+.
 As HomeKit hub i use an Apple TV 4.  
 I will not explain how to set up Homebridge since there are a lot of tutorials in the internet.  
   
-All you need is the official RaspberryPi camera modul.  
-Connect the cam modul to your pi.  
-Additionally you can put both the pi and the camera into a case like this https://ameridroid.com/collections/cases/products/smoothcam-raspberry-pi-camera-case-3d-printed-abs.    
+All you need is the official RaspberryPi camera modul:  
+https://www.amazon.de/LABISTS-Offizielle-Raspberry-V2-0-Kamera-Modul/dp/B07VRJKYYB  
   
-It depends on your Homebridge installation if homebridge-camera-ffmpg is already installed.  
-If it's installed you should edit your config.json.  
+How to connect the cam modul to your pi:  
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera  
+  
+Additionally you can put both the pi and the camera into a case like this: 
+https://ameridroid.com/collections/cases/products/smoothcam-raspberry-pi-camera-case-3d-printed-abs  
+  
+It depends on your Homebridge installation if homebridge-camera-ffmpeg is already installed.  
+If it's not installed you should do so:  
+https://github.com/KhaosT/homebridge-camera-ffmpeg  
+
+After installation you should edit your config.json.  
 In my case the config.json is located under /root/.homebridge/config.json.  
 You can edit the file through a ssh connection to your pi.  
 Just type ```sudo nano /root/.homebridge/config.json``` into the console or terminal window.  
-In the nano editor add the following lines:  
+In the nano editor add the following lines (for more information check the sample.config.json within this repo):  
   
 ```
 {   
