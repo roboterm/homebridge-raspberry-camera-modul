@@ -1,4 +1,4 @@
-How to build and configure a cheap HomeKit enabled camera  
+# How to build and configure a cheap HomeKit enabled camera #
   
 You can find a lot of instructions in the internet about how to build and set up a cheap HomeKit enabled camera.  
 But for me I found all these were incomplete or faulty.  
