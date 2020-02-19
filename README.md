@@ -18,7 +18,7 @@ It depends on your Homebridge installation if homebridge-camera-ffmpg is already
 If it's installed you should edit your config.json.  
 In my case the config.json is located under /root/.homebridge/config.json.  
 You can edit the file through a ssh connection to your pi.  
-Just type sudo nano /root/.homebridge/config.json into the console or terminal window.  
+Just type ```sudo nano /root/.homebridge/config.json``` into the console or terminal window.  
 In the nano editor add the following lines:  
   
 ```
