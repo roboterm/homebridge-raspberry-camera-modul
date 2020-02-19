@@ -19,8 +19,10 @@ You can edit the file through a ssh connection to your pi.
 Just type sudo nano /root/.homebridge/config.json into the console or terminal window.  
 In the nano editor add the following lines:  
   
-{  
+```
+{   
   "platform" : "Camera-ffmpeg",  
+  "name" : "Homebridge-Camera-Ffmpeg Plugin" 
   "cameras" : [  
     {  
       "name" : "Camera",  
@@ -35,7 +37,7 @@ In the nano editor add the following lines:
         "stillImageSource" : "-re -f video4linux2 -ss 0.9 -i /dev/video0 -vframes 1"  
       }  
     }  
-  ]  
-  "name" : "Camera Plugin"  
-}  
+  ]   
+}
+```  
 
