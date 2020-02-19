@@ -12,6 +12,8 @@ I will not explain how to set up Homebridge since there are a lot of tutorials i
   
 All you need is the official RaspberryPi camera modul.  
 Connect the cam modul to your pi.  
+Additionally you can put both the pi and the camera into a case like this https://ameridroid.com/collections/cases/products/smoothcam-raspberry-pi-camera-case-3d-printed-abs.    
+  
 It depends on your Homebridge installation if homebridge-camera-ffmpg is already installed.  
 If it's installed you should edit your config.json.  
 In my case the config.json is located under /root/.homebridge/config.json.  
