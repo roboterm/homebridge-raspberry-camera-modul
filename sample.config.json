@@ -12,12 +12,7 @@
     "end": 52150,
     "comment": "This section is used to control the range of ports that separate accessory (like camera or television) should be bind to."
   },
-  "accessories": [
-    {
-      "accessory": "WeMo",
-      "name": "Coffee Maker"
-    }
-  ],
+  "accessories": [ ],
 
   "platforms": [
     {
@@ -37,10 +32,6 @@
           }
         }
       ]
-    },
-    {
-      "platform" : "PhilipsHue",
-      "name" : "Hue"
-    },
+    }
   ]
 }
